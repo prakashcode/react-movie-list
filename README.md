@@ -11,7 +11,7 @@ Tech stack:
 
 React-Router was not used as this app does not require routing. Currently components use the centralised Redux store for state management but some components still use their own local state.
 
-##SCREENSHOT OF THE APPLICATION:
+SCREENSHOT OF THE APPLICATION:
 
 * Please see "ReactApp-MovieList.png"
 
