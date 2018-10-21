@@ -1,0 +1,92 @@
+.App {
+  /* text-align: center; */
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+
+.App-header {
+  padding-bottom: 10px;
+  background-color: #484848;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.movieItem {
+  margin-bottom:10px;
+  margin-top:20px;
+}
+
+.movieItemBody {
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: inline-block;
+  width: 100%;
+}
+
+.filterCheckBox {
+  text-align:left;
+}
+
+.movieImage {
+  float:left;
+  width:150px;
+}
+
+.movieDetails {
+  float:left;
+  width:250px;
+  padding-left:20px;
+}
+
+.movieDetails p {
+  height: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.movieDetails .voting {
+  margin-bottom: 10px;
+}
+
+.movieDetails .release {
+  font-style: italic;
+}
+
+.filterBox h3 {
+  border-bottom: 1px solid #c1c1c1 !important;
+  padding-bottom: 10px;
+}
+
+.filterBox h4 {
+  margin-top: 25px;
+}
+
+.movieListBody h3{
+  border-bottom: 1px solid #c1c1c1 !important;
+  padding-bottom: 10px;
+}
+
+.filterRating input {
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+}
