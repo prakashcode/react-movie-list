@@ -13,7 +13,7 @@ React-Router was not used as this app does not require routing. Currently compon
 
 ##SCREENSHOT OF THE APPLICATION:
 
-![alt Screenshot](ReactApp-MovieList.png)
+* Please see "ReactApp-MovieList.png"
 
 ## Available Scripts
 
