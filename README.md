@@ -8,6 +8,7 @@ Tech stack:
 - Axios: API requests
 - Moment: Date Formatting
 - Jest & Enzyme: Tests
+- SASS: Please install Python 2.7+ before running npm install to install the node packages.
 
 React-Router was not used as this app does not require routing. Currently components use the centralised Redux store for state management but some components still use their own local state.
 
