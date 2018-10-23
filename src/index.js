@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-import {Provider} from 'react-redux';
+import { Provider } from 'react-redux';
 import configureStore from './redux/configureStore';
 
 const store = configureStore(window.__STATE__)
@@ -12,7 +12,7 @@ const store = configureStore(window.__STATE__)
 ReactDOM.render(
     <Provider store={store}>
         <App />
-    </Provider>, 
+    </Provider>,
     document.getElementById('root')
 );
 

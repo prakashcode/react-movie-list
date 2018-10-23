@@ -1,6 +1,3 @@
-.App {
-  /* text-align: center; */
-}
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -52,41 +49,52 @@
 }
 
 .movieDetails {
+  
   float:left;
   width:250px;
   padding-left:20px;
+
+  p {
+    height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .voting {
+    margin-bottom: 10px;
+  }
+
+  .release {
+    font-style: italic;
+  }
 }
 
-.movieDetails p {
-  height: 100px;
-  overflow: hidden;
-  text-overflow: ellipsis;
+.filterBox {
+
+  h3 {
+    border-bottom: 1px solid #c1c1c1 !important;
+    padding-bottom: 10px;
+  }
+
+  h4 {
+    margin-top: 25px;
+  }
 }
 
-.movieDetails .voting {
-  margin-bottom: 10px;
+
+.movieListBody {
+
+  h3{
+    border-bottom: 1px solid #c1c1c1 !important;
+    padding-bottom: 10px;
+  }
 }
 
-.movieDetails .release {
-  font-style: italic;
-}
+.filterRating {
 
-.filterBox h3 {
-  border-bottom: 1px solid #c1c1c1 !important;
-  padding-bottom: 10px;
-}
-
-.filterBox h4 {
-  margin-top: 25px;
-}
-
-.movieListBody h3{
-  border-bottom: 1px solid #c1c1c1 !important;
-  padding-bottom: 10px;
-}
-
-.filterRating input {
-  text-align: center;
-  border-radius: 5px;
-  font-weight: bold;
+  input {
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+  }
 }
